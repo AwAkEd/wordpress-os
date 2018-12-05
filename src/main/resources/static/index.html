@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>API Level 0 Mission - Spring Boot</title>
+    <title>TourYMe - API</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
@@ -10,13 +10,13 @@
 <div class="container">
     <div class="row">
         <div class="sect1">
-<h2 id="_http_booster">HTTP Booster</h2>
+<h2 id="_http_booster">Rest API Booster</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>An example of simple mapping of a business operation to a remote endpoint. By taking this approach, clients use the HTTP protocol as a transport mechanism to call services. Application engineers define the APIs using a broad interpretation of the REST fundamentals, encouraging freedom in design and quick prototyping.</p>
+<p>An simple Rest API.</p>
 </div>
 <div class="sect2">
-<h3 id="_using_the_greeting_service">Using the greeting service</h3>
+<h3 id="_using_the_greeting_service">Let's greet everyone</h3>
 
 </div>
 </div>
@@ -27,11 +27,11 @@
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="World">
             </div>
-            <button id="invoke" type="submit" class="btn btn-success">Invoke</button>
+            <button id="invoke" type="submit" class="btn btn-success">Greet!</button>
         </form>
 
-        <p class="lead">Result:</p>
-        <pre><code id="greeting-result">Invoke the service to see the result.</code></pre>
+        <p class="lead">Results:</p>
+        <pre><code id="greeting-result">Press "Greet!" to view the results.</code></pre>
     </div>
 </div>
 
